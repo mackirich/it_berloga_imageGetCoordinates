@@ -1,6 +1,6 @@
 from PIL import Image, ExifTags
 
-img = Image.open("img.jpg")
+img = Image.photo("img.jpg")
 exif_data = img._getexif()
 
 if exif_data:
